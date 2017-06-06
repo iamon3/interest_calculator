@@ -14,9 +14,9 @@ dependencies {
 
 jar {
   manifest{
-    attributes 'Main-Class': 'App'
+    attributes 'Main-Class': 'com.freeorg.App'
   }
 }
 
-mainClassName = 'App'
+mainClassName = 'com.freeorg.App'
 
