@@ -1,5 +1,5 @@
 # interest_calculator
-Sample Gradle Java Application
+Sample Gradle Java Application which calculates interest on account balance based on given conditions.
 
 To init gralde java application from scratch (Skip this step. It is needed only for understanding purpose)
 
