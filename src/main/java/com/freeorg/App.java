@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class App {
 	private static final String OUTPUT_FILE = "build/resources/main/outputFile";
 	private static final String INPUT_FILE = "inputFile";
+	
 	public static void main(String[] args) {
 		System.out.println(new App().getFile(INPUT_FILE));
 	}
@@ -22,8 +23,8 @@ public class App {
 		FileWriter fw = null;
 		StringBuilder result = new StringBuilder("");
 		//Get file from resources folder
-		ClassLoader classLoader = getClass().getClassLoader();
-		File file = new File(classLoader.getResource(fileName).getFile());
+		//ClassLoader classLoader = getClass().getClassLoader();
+		File file = new File(getClass().getResource(fileName).getFile());
 		try (Scanner scanner = new Scanner(file)) {
 			fw = new FileWriter(OUTPUT_FILE);
 			bw = new BufferedWriter(fw);

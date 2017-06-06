@@ -12,6 +12,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+compileJava << {
+	copy {
+    	from 'src/main/resources/inputFile'
+    	into 'build/classes/main/com/freeorg/'
+	}
+}
+
 jar {
   manifest{
     attributes 'Main-Class': 'com.freeorg.App'
