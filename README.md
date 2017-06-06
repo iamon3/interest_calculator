@@ -12,6 +12,7 @@ How to run the application?  2 ways are there. Both options are for linux env. F
     ./gradlew run
     
 Second approach to run
+
     ./gradlew build
     cp build/lib/interest_calculator.jar ~/temp
     cd ~/temp
