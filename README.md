@@ -16,5 +16,6 @@ Second approach to run
     cp build/lib/interest_calculator.jar ~/temp
     cd ~/temp
     java -jar interest_calculator.jar
+    
 Please note, to run on windows, use gradlew.bat instead gradlew
   
