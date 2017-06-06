@@ -18,5 +18,5 @@ Second approach to run
     cd ~/temp
     java -jar interest_calculator.jar
     
-Please note, to run on windows, use gradlew.bat instead gradlew
+Both of these options will generate outputFile in the working folder. Please note, to run on windows, use gradlew.bat instead gradlew
   
