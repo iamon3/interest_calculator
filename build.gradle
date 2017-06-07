@@ -12,10 +12,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-compileJava << {
+compileJava {
+       doLast {
 	copy {
-    	from 'src/main/resources/inputFile'
-    	into 'build/classes/main/com/freeorg/'
+   		from 'src/main/resources/inputFile'
+    		into 'build/classes/main/com/freeorg/'
+	  }
 	}
 }
 
